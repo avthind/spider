@@ -1,0 +1,5 @@
+diffCheck_drawing = assign({{108,0}});
+diffCheck_blockage = assign({{108,1}});
+metalc2_drawing = assign({{112,0}});
+metalc2_blockage = assign({{112,1}});
+metalc2_pin = assign({{112,2}});
