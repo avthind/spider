@@ -1,5 +1,3 @@
-## spider
-
 ## Projects
 
 #### Error Key Replacement Program
