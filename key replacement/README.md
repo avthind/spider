@@ -6,10 +6,10 @@ The Error Key Replacement program is a Python script that processes error messag
 
 ### Features
 
-- **Interactive File Path Input:** Prompts users to enter paths for the source file, error file, and output file.
-- **Load and Parse Files:** Reads and parses the source file to extract key-value pairs for replacements.
-- **Replace Error Messages:** Updates error messages by replacing placeholders with values from the source file.
-- **Save Updated Messages:** Writes the modified error messages to a new file.
+- Interactive File Path Input: Prompts users to enter paths for the source file, error file, and output file.
+- Load and Parse Files: Reads and parses the source file to extract key-value pairs for replacements.
+- Replace Error Messages: Updates error messages by replacing placeholders with values from the source file.
+- Save Updated Messages: Writes the modified error messages to a new file.
 
 ### Requirements
 
