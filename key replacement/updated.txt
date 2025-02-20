@@ -1,0 +1,4 @@
+diffCheck_drawing xor diffCheck_drawing, output to (108;0)
+metalc2_drawing xor metalc2_drawing, output to (112;0)
+L113D0_Baseline xor L113D0_Check, output to (113;0)
+L114D0_Baseline xor L114D0_Check, output to (114;0)
