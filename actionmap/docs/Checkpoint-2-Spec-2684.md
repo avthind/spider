@@ -1,1 +1,0 @@
-../../scaffolding/content/Checkpoint-2-Spec-2684.md
