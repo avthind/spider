@@ -1,8 +1,8 @@
 ## Projects
 
 #### Data Analysis with Python Projects (freeCodeCamp Certification)
-Mean-Variance-Standard Deviation Calculator <br />
 Demographic Data Analyzer <br />
+Mean-Variance-Standard Deviation Calculator <br />
 Medical Data Visualizer <br />
 Page View Time Series Visualizer <br />
 Sea Level Predictor <br />
