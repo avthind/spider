@@ -7,6 +7,9 @@ Medical Data Visualizer <br />
 Page View Time Series Visualizer <br />
 Sea Level Predictor <br />
 
+#### Server Log Analyzer
+A **Python** script to process and analyze web server logs, helping identify trends such as most frequent IP addresses, most requested endpoints, HTTP status code distribution, and request trends over time (visualized with Matplotlib).
+
 #### Key Replacement
 The Error Key Replacement program is a **Python** script that processes error messages and updates them based on values extracted from a source file. The script allows users to specify file paths at runtime, making it easy to use with different sets of files without modifying the script itself. The script currently parses source values in a particular format (as shown in the example source.txt and error.txt files) and can be edited to fit other formats as needed.
 
