@@ -17,9 +17,9 @@ The Error Key Replacement program is a Python script that processes error messag
 
 ### Usage
 
-1. **Clone the Repository:**
+1. **Clone the Repository**
 
-2. **Run the Script:**
+2. **Run the Script**
 
 3. **Provide File Paths:**
    - Enter the path to the source file when prompted.
