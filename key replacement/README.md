@@ -2,7 +2,7 @@
 
 ### Overview
 
-The Error Key Replacement program is a Python script that processes error messages and updates them based on values extracted from a source file. The script allows users to specify file paths at runtime, making it easy to use with different sets of files without modifying the script itself. The script currently parses source values in a particular format (as in the example source.txt and error.txt files) but can be edited to fit formats as needed.
+The Error Message Updater is a Python script that processes error messages and updates them based on key-value pairs extracted from a source file. The script reads both the source file and the error file, performs the necessary replacements, and saves the updated error messages to a new file. It allows for dynamic input of file paths, making it flexible for use with different sets of files without modifying the code.
 
 ### Features
 
