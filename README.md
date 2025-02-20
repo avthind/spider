@@ -1,5 +1,12 @@
 ## Projects
 
+#### Data Analysis with Python Projects (freeCodeCamp Certification)
+Mean-Variance-Standard Deviation Calculator
+Demographic Data Analyzer
+Medical Data Visualizer
+Page View Time Series Visualizer
+Sea Level Predictor
+
 #### Key Replacement
 The Error Key Replacement program is a **Python** script that processes error messages and updates them based on values extracted from a source file. The script allows users to specify file paths at runtime, making it easy to use with different sets of files without modifying the script itself. The script currently parses source values in a particular format (as shown in the example source.txt and error.txt files) and can be edited to fit other formats as needed.
 
