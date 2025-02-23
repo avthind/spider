@@ -1,6 +1,6 @@
 ## Projects
 
-#### Front End Development Libraries Projects (freeCodeCamp Certification)
+**Front End Development Libraries Projects (freeCodeCamp Certification):**
 25 + 5 Clock <br />
 Drum Machine <br />
 JavaScript Calculator <br />
@@ -17,7 +17,7 @@ This mobile app prototype was developed to help people build better morning and 
 
 **Server Log Analyzer:** A **Python** script to process and analyze web server logs, helping identify trends such as most frequent IP addresses, most requested endpoints, HTTP status code distribution, and request trends over time (visualized with Matplotlib).
 
-#### Data Analysis with Python Projects (freeCodeCamp Certification)
+**Data Analysis with Python Projects (freeCodeCamp Certification):**
 Demographic Data Analyzer <br />
 Mean-Variance-Standard Deviation Calculator <br />
 Medical Data Visualizer <br />
