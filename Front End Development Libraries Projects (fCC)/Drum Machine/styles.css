@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    color: white;
+}
+
+#drum-machine {
+    text-align: center;
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#display {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #444;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.drum-pad {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #555;
+    transition: 0.2s;
+}
+
+.drum-pad:active {
+    background: #777;
+}
