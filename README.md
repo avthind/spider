@@ -7,6 +7,13 @@ Medical Data Visualizer <br />
 Page View Time Series Visualizer <br />
 Sea Level Predictor <br />
 
+#### Front End Development Libraries Projects (freeCodeCamp Certification)
+Random Quote Machine <br />
+Markdown Previewer <br />
+Drum Machine <br />
+JavaScript Calculator <br />
+25 + 5 Clock <br />
+
 #### Automated Invite Sender
 This **Python** script automates sending invitation messages with attachments to a large contact list via Email, SMS, and WhatsApp. It is ideal for event invitations, announcements, and bulk messaging.
 
