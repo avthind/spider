@@ -14,13 +14,6 @@ JavaScript Calculator <br />
 Markdown Previewer <br />
 Random Quote Machine <br />
 
-#### Machine Learning with Python Projects (freeCodeCamp Certification)
-Book Recommendation Engine using KNN <br />
-Cat and Dog Image Classifier <br />
-Linear Regression Health Costs Calculator <br />
-Neural Network SMS Text Classifier <br />
-Rock Paper Scissors <br />
-
 #### Ireonada
 This mobile app prototype was developed to help people build better morning and night routines. It was built using **ReactJS, Material UI, JavaScript, HTML, and CSS** for CS 160: User Interface Design and Development at UC Berkeley. The project was completed with a group of four students.
 
