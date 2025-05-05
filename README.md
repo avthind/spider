@@ -14,7 +14,7 @@ JavaScript Calculator <br />
 Markdown Previewer <br />
 Random Quote Machine <br />
 
-#### Ireonada
+#### AI Accountability Companion App (Ireonada)
 This mobile app prototype was developed to help people build better morning and night routines. It was built using **ReactJS, Material UI, JavaScript, HTML, and CSS** for CS 160: User Interface Design and Development at UC Berkeley. The project was completed with a group of four students.
 
 #### Python
