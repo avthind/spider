@@ -1,4 +1,4 @@
-# Ireonada
+# AI Accountability Companion App (Ireonada)
 
 This mobile app was developed to help people build better morning and night routines. This application was built in ReactJS, JavaScript, HTML, and CSS for CS 160 User Interface Design and Development at UC Berkeley with a group of four students.
 
