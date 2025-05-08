@@ -1,18 +1,22 @@
 import { useState } from 'react';
+import API from '../api';
 
-export default function TaskForm({ onAdd }) {
-  const [task, setTask] = useState({ title: '', description: '' });
+export default function TaskForm({ onTaskCreated }) {
+  const [title, setTitle] = useState('');
+  const [description, setDescription] = useState('');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    onAdd({ ...task, completed: false });
-    setTask({ title: '', description: '' });
+    await API.post('/tasks', { title, description, completed: false });
+    setTitle('');
+    setDescription('');
+    onTaskCreated();
   };
 
   return (
     <form onSubmit={handleSubmit}>
-      <input type="text" placeholder="Task title" value={task.title} onChange={e => setTask({ ...task, title: e.target.value })} required />
-      <input type="text" placeholder="Description" value={task.description} onChange={e => setTask({ ...task, description: e.target.value })} />
+      <input placeholder="Task title" value={title} onChange={(e) => setTitle(e.target.value)} />
+      <input placeholder="Description" value={description} onChange={(e) => setDescription(e.target.value)} />
       <button type="submit">Add Task</button>
     </form>
   );

@@ -1,22 +1,23 @@
 import { useState } from 'react';
+import API from '../api';
 import { useNavigate } from 'react-router-dom';
-import API from '../utils/api';
 
 export default function Register() {
-  const [form, setForm] = useState({ email: '', password: '' });
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
-  const handleSubmit = async (e) => {
+  const handleRegister = async (e) => {
     e.preventDefault();
-    await API.post('/auth/register', form);
+    await API.post('/auth/register', { email, password });
     navigate('/login');
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleRegister}>
       <h2>Register</h2>
-      <input type="email" placeholder="Email" value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} required />
-      <input type="password" placeholder="Password" value={form.password} onChange={e => setForm({ ...form, password: e.target.value })} required />
+      <input placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
+      <input placeholder="Password" type="password" onChange={(e) => setPassword(e.target.value)} />
       <button type="submit">Register</button>
     </form>
   );

@@ -1,0 +1,14 @@
+form {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 300px;
+}
+input {
+  padding: 8px;
+}
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}

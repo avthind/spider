@@ -1,23 +1,28 @@
 import { useState } from 'react';
+import API from '../api';
 import { useNavigate } from 'react-router-dom';
-import API from '../utils/api';
 
 export default function Login() {
-  const [form, setForm] = useState({ email: '', password: '' });
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
-  const handleSubmit = async (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault();
-    const res = await API.post('/auth/login', form);
-    localStorage.setItem('token', res.data.token);
-    navigate('/');
+    try {
+      const res = await API.post('/auth/login', { email, password });
+      localStorage.setItem('token', res.data.token);
+      navigate('/');
+    } catch (err) {
+      alert('Invalid credentials');
+    }
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleLogin}>
       <h2>Login</h2>
-      <input type="email" placeholder="Email" value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} required />
-      <input type="password" placeholder="Password" value={form.password} onChange={e => setForm({ ...form, password: e.target.value })} required />
+      <input placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
+      <input placeholder="Password" type="password" onChange={(e) => setPassword(e.target.value)} />
       <button type="submit">Login</button>
     </form>
   );
