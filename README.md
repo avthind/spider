@@ -17,6 +17,11 @@ JavaScript Calculator <br />
 Markdown Previewer <br />
 Random Quote Machine <br />
 
+#### Odin Projects
+Recipes: A basic **HTML and CSS** recipe website consisting of a main index page that has links to a few recipes. 
+
+Landing Page: A web page created based on provided design images using **HTML, CSS, Flexbox.**
+
 #### Python
 Automated Invite Sender: This **Python** script automates sending invitation messages with attachments to a large contact list via Email, SMS, and WhatsApp. It is ideal for event invitations, announcements, and bulk messaging.
 
