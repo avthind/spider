@@ -3,13 +3,6 @@
 #### AI Accountability Companion App (Ireonada)
 This mobile app prototype was developed to help people build better morning and night routines. It was built using **ReactJS, Material UI, JavaScript, HTML, and CSS** for CS 160: User Interface Design and Development at UC Berkeley. The project was completed with a group of four students.
 
-#### Data Analysis with Python Projects (freeCodeCamp Certification)
-Demographic Data Analyzer <br />
-Mean-Variance-Standard Deviation Calculator <br />
-Medical Data Visualizer <br />
-Page View Time Series Visualizer <br />
-Sea Level Predictor <br />
-
 #### Front End Development Libraries Projects (freeCodeCamp Certification)
 25 + 5 Clock <br />
 Drum Machine <br />
@@ -17,10 +10,19 @@ JavaScript Calculator <br />
 Markdown Previewer <br />
 Random Quote Machine <br />
 
+#### Responsive Web Design Projects (freeCodeCamp Certification)
+
 #### Odin Projects
 Recipes: A basic **HTML and CSS** recipe website consisting of a main index page that has links to a few recipes. 
 
 Landing Page: A web page created based on provided design images using **HTML, CSS, Flexbox.**
+
+#### Data Analysis with Python Projects (freeCodeCamp Certification)
+Demographic Data Analyzer <br />
+Mean-Variance-Standard Deviation Calculator <br />
+Medical Data Visualizer <br />
+Page View Time Series Visualizer <br />
+Sea Level Predictor <br />
 
 #### Python
 Automated Invite Sender: This **Python** script automates sending invitation messages with attachments to a large contact list via Email, SMS, and WhatsApp. It is ideal for event invitations, announcements, and bulk messaging.
