@@ -12,7 +12,7 @@ Random Quote Machine <br />
 
 #### Responsive Web Design Projects (freeCodeCamp Certification)
 
-#### Odin Projects
+#### The Odin Project (Full Stack JavaScript Path)
 Recipes: A basic **HTML and CSS** recipe website consisting of a main index page that has links to a few recipes. 
 
 Landing Page: A web page created based on provided design images using **HTML, CSS, Flexbox.**
