@@ -1,7 +1,8 @@
 ## Projects
 
-#### AI Accountability Companion App (Ireonada)
-This mobile app prototype was developed to help people build better morning and night routines. It was built using **ReactJS, Material UI, JavaScript, HTML, and CSS** for CS 160: User Interface Design and Development at UC Berkeley. The project was completed with a group of four students.
+#### Ireonada – AI Accountability Companion App
+Mobile app prototype for building healthy morning/night routines.
+Developed in a team of four using ReactJS, Material UI, HTML, CSS, and JavaScript (UC Berkeley CS 160).
 
 #### Front End Development Libraries Projects (freeCodeCamp Certification)
 25 + 5 Clock <br />
